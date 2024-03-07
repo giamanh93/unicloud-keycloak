@@ -303,6 +303,20 @@ div#kc-form form label[for="password"]::after{
     color: #212633;
     margin-bottom: 0px;
 }
+.form-group input[aria-invalid="true"]{
+    border: 1px solid red;
+    outline: none;
+    box-shadow: none;
+    background-repeat: no-repeat;
+}
+.form-group input#password[aria-invalid="true"]{
+    background-position: right 42px center;
+}
+span.pf-m-error{
+    color: red;
+    text-shadow: none;
+    font-size: 12px;
+}
 .form-group input:focus{
     outline: none;
 }
@@ -318,6 +332,7 @@ div#kc-form form label[for="password"]::after{
     background: none;
     outline: none;
     z-index: 3;
+    top: 2px
 
 }
 .form-group .pf-c-input-group .pf-m-control::after{
