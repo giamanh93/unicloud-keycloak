@@ -331,7 +331,7 @@ span.pf-m-error{
     right: 0px;
     background: none;
     outline: none;
-    z-index: 3;
+    z-index: 99;
     top: 2px
 
 }
@@ -344,11 +344,14 @@ span.pf-m-error{
 .form-group input:hover{
     background: none;
 }
+.login-pf-settings #kc-form-buttons {
+    margin-top: 20px;
+}
 #kc-form-buttons input{
     height: 40px;
     border: none;
     box-shadow: none;
-    margin-top: 20px;
+    margin-top: 0;
     text-indent: -99999999px;
     background: none;
     position: relative;
@@ -378,4 +381,128 @@ span.pf-m-error{
     text-shadow: none;
     font-size: 16px;
     letter-spacing: 0.5px;
+}
+.login-pf-settings div a{
+    display: inline-block;
+    line-height: 1;
+    text-shadow: none;
+    font-size: 15px;
+    color: #fff;
+    position: relative;
+    margin-top: 12px;
+    margin-bottom: 25px;
+  }
+#kc-form-login .login-pf-settings div a::after{
+    content: 'Quên mật khẩu?';
+    display: block;
+    text-indent: 0px;
+    color: rgba(9, 121, 253, 1);
+    bottom: 0;
+    position: absolute;
+    z-index: 99;
+  }
+  #kc-reset-password-form{
+    background: #fff;
+    width: 100%;
+    max-width: 575px;
+    margin: auto;
+    padding-top: 100px;
+    position: relative;
+    padding: 50px;
+    box-shadow: 0px 1.643070936203003px 6px 0px rgba(112, 144, 176, 0.15);
+    margin-top: 30px;
+  }
+
+  #kc-reset-password-form label[for="username"] {
+    color: #525B73 !important;
+    font-size: 17px;
+    text-shadow: none;
+    font-weight: bold;
+    text-indent: -9999999px;
+    line-height: 1;
+    margin-bottom: 10px;
+}
+#kc-passwd-update-form,
+  #kc-reset-password-form{
+    background: #fff;
+    width: 100%;
+    max-width: 575px;
+    margin: auto;
+    padding-top: 100px;
+    position: relative;
+    padding: 50px;
+    box-shadow: 0px 1.643070936203003px 6px 0px rgba(112, 144, 176, 0.15);
+    margin-top: 30px;
+  }
+
+#kc-reset-password-form label[for="username"]::after {
+    content: 'Tên đăng nhập';
+    display: block;
+    text-indent: 0px;
+}
+#kc-reset-password-form .form-group .col-xs-12{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+#kc-reset-password-form .login-pf-settings #kc-form-options a{
+    color: rgba(9, 121, 253, 1);
+    text-shadow: none;
+    font-size: 14px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+#kc-info-wrapper{
+    color: rgb(120 120 120);
+    text-shadow: none;
+}
+
+
+#kc-passwd-update-form label[for="password-new"]{
+    color: #525B73 !important;
+font-size: 17px;
+text-shadow: none;
+font-weight: bold;
+text-indent: -9999999px;
+line-height: 1;
+margin-bottom: 10px;
+}
+#kc-passwd-update-form label[for="password-new"]::after {
+content: 'Mật khẩu mới';
+display: block;
+text-indent: 0px;
+}
+#kc-passwd-update-form label[for="password-confirm"]{
+    color: #525B73 !important;
+font-size: 17px;
+text-shadow: none;
+font-weight: bold;
+text-indent: -9999999px;
+line-height: 1;
+margin-bottom: 10px;
+}
+#kc-passwd-update-form label[for="password-confirm"]::after {
+content: 'Nhập lại password';
+display: block;
+text-indent: 0px;
+}
+#kc-passwd-update-form .form-group .col-xs-12 {
+padding-left: 0px;
+padding-right: 0px;
+}
+#kc-passwd-update-form #kc-form-options .checkbox  label{
+font-size: 14px;
+line-height: 1;
+text-shadow: none;
+color: #000;
+min-height: 0px;
+display: flex;
+align-items: center;
+padding-top: 0px;
+gap: 10px;
+}
+#kc-passwd-update-form #kc-form-options .checkbox #logout-sessions{
+position: static;
+height: 16px;
+width: auto;
+line-height: 16px;
 }
