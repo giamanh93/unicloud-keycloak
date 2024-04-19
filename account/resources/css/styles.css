@@ -381,6 +381,7 @@ span.pf-m-error{
     text-shadow: none;
     font-size: 16px;
     letter-spacing: 0.5px;
+    width: calc(100% - 80px);
 }
 .login-pf-settings div a{
     display: inline-block;
@@ -505,4 +506,26 @@ position: static;
 height: 16px;
 width: auto;
 line-height: 16px;
+}
+
+#kc-passwd-update-form #kc-form-buttons input[type="submit"]{
+    width: calc(100% - 80px);
+}
+#kc-passwd-update-form #kc-form-buttons button[name="cancel-aia"] {
+    position: absolute;
+    right: 0px;
+    z-index: 999;
+    height: 100%;
+    top: 0px;
+    border: none;
+    text-indent: -9999999px;
+    width: 70px;
+}
+#kc-passwd-update-form #kc-form-buttons button[name="cancel-aia"]::after {
+    content: 'Hủy';
+    display: block;
+    text-indent: 0px;
+    position: absolute;
+    top: 0;
+    line-height: 40px;
 }
