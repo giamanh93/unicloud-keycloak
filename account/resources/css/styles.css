@@ -381,7 +381,7 @@ span.pf-m-error{
     text-shadow: none;
     font-size: 16px;
     letter-spacing: 0.5px;
-    width: calc(100% - 80px);
+    width: 100%;
 }
 .login-pf-settings div a{
     display: inline-block;
@@ -499,7 +499,19 @@ min-height: 0px;
 display: flex;
 align-items: center;
 padding-top: 0px;
-gap: 10px;
+gap: 5px;
+position: relative;
+}
+#kc-passwd-update-form #kc-form-options .checkbox label {
+    text-indent: -999999px;
+
+}
+#kc-passwd-update-form #kc-form-options .checkbox label::after {
+    content: 'Đăng xuất khỏi các thiết bị khác';
+    display: block;
+    text-indent: 0px;
+    top: 0;
+    line-height: 40px;
 }
 #kc-passwd-update-form #kc-form-options .checkbox #logout-sessions{
 position: static;
@@ -528,4 +540,8 @@ line-height: 16px;
     position: absolute;
     top: 0;
     line-height: 40px;
+}
+#kc-passwd-update-form #kc-form-buttons:after{
+    content: 'Cập nhật';
+    width: calc(100% - 80px);
 }
