@@ -227,7 +227,7 @@ div#kc-header{
     width: 270px;
     height: 64px;
     margin: auto;
-    background: url('../img/logo-yamaha.svg');
+    background: url('../img/logo-yamaha.png');
     background-size: contain;
     position: relative;
 }
