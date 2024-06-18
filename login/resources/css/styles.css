@@ -229,6 +229,7 @@ div#kc-header{
     margin: auto;
     background: url('../img/logo-yamaha.png');
     background-size: contain;
+    background-repeat: no-repeat;
     position: relative;
 }
 #kc-form-wrapper {
