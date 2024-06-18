@@ -242,6 +242,7 @@ div#kc-header{
     padding: 145px 50px 50px;
     box-shadow: 0px 1.643070936203003px 6px 0px rgba(112, 144, 176, 0.15);
     margin-top: 30px;
+    border-radius: 16px;
 }
 #kc-form-login:before{
     content: 'Đăng nhập';
@@ -378,7 +379,7 @@ span.pf-m-error{
     text-align: center;
     height: 100%;
     line-height: 40px;
-    background: rgba(0, 82, 204, 1);
+    background: rgba(207, 31, 37, 1);
     text-shadow: none;
     font-size: 16px;
     letter-spacing: 0.5px;
@@ -398,7 +399,7 @@ span.pf-m-error{
     content: 'Quên mật khẩu?';
     display: block;
     text-indent: 0px;
-    color: rgba(9, 121, 253, 1);
+    color: rgba(33, 38, 51, 1);
     bottom: 0;
     position: absolute;
     z-index: 99;
@@ -413,6 +414,7 @@ span.pf-m-error{
     padding: 50px;
     box-shadow: 0px 1.643070936203003px 6px 0px rgba(112, 144, 176, 0.15);
     margin-top: 30px;
+    border-radius: 16px;
   }
 
   #kc-reset-password-form label[for="username"] {
@@ -435,6 +437,7 @@ span.pf-m-error{
     padding: 50px;
     box-shadow: 0px 1.643070936203003px 6px 0px rgba(112, 144, 176, 0.15);
     margin-top: 30px;
+    border-radius: 16px;
   }
 
 #kc-reset-password-form label[for="username"]::after {
@@ -447,7 +450,7 @@ span.pf-m-error{
     padding-right: 0px;
 }
 #kc-reset-password-form .login-pf-settings #kc-form-options a{
-    color: rgba(9, 121, 253, 1);
+    color: rgba(33, 38, 51, 1);
     text-shadow: none;
     font-size: 14px;
     margin-bottom: 10px;
