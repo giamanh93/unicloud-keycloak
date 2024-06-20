@@ -1,4 +1,4 @@
-<form id="kc-form-login" onsubmit="login.disabled = true; return true;" action="${url.loginAction}" method="post">
+<form id="kc-form-login sdsdsdsdsds" onsubmit="login.disabled = true; return true;" action="${url.loginAction}" method="post">
     <div class="form-group">
         <label for="username" class="pf-c-form__label pf-c-form__label-text">${msg("username")}</label>
 
