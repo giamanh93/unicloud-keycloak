@@ -28,7 +28,7 @@
                         <label for="password" class="${properties.kcLabelClass!}">${msg("password")}</label>
 
                         <div class="${properties.kcInputGroup!}">
-                            <input tabindex="2" id="password" class="${properties.kcInputClass!}" name="password" type="password" autocomplete="new-password"
+                            <input tabindex="2" id="password" class="${properties.kcInputClass!}" name="password" type="password" autocomplete="off"
                                    aria-invalid="<#if messagesPerField.existsError('username','password')>true</#if>"
                             />
                             <button class="${properties.kcFormPasswordVisibilityButtonClass!}" type="button" aria-label="${msg("showPassword")}"
