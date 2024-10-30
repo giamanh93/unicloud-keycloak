@@ -631,8 +631,9 @@ line-height: 16px;
   }
 #kc-otp-login-form #kc-form-buttons>div input:first-child{
     width: calc(100% - 100px);
-    background: rgba(207, 31, 37, 1);
     position: relative;
+    z-index: 9999999;
+    background: none;
 }
 .login-pf-header #kc-username{
     display: none;
