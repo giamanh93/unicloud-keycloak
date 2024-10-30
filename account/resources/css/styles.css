@@ -549,3 +549,92 @@ line-height: 16px;
     content: 'Cập nhật';
     width: calc(100% - 80px);
 }
+
+
+
+#kc-otp-login-form{
+    background: #fff;
+    width: 100%;
+    max-width: 575px;
+    margin: auto;
+    padding-top: 100px;
+    position: relative;
+    padding: 50px;
+    box-shadow: 0px 1.643070936203003px 6px 0px rgba(112, 144, 176, 0.15);
+    margin-top: 30px;
+    border-radius: 16px;
+}
+#kc-otp-login-form label{
+    color: #525B73 !important;
+    font-size: 17px;
+    text-shadow: none;
+    font-weight: bold;
+    text-indent: -9999999px;
+    line-height: 1;
+    margin-bottom: 10px;
+}
+#kc-otp-login-form label[for="emailCode"]::after {
+    content: 'Vui lòng nhập mã 6 chữ số đã được gửi tới email của bạn.';
+    display: block;
+    text-indent: 0px;
+}
+#kc-otp-login-form .form-group{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+#kc-otp-login-form .form-group>.col-xs-12{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+#kc-otp-login-form #kc-form-buttons:after{
+    display: none;
+}
+#kc-otp-login-form #kc-form-buttons>div{
+    display: flex;
+    gap: 6px;
+    justify-content: space-around;
+    width: 100%;
+    position: relative;
+}
+#kc-otp-login-form #kc-form-buttons>div:after{
+    content: 'Đăng nhập';
+    display: block;
+    text-indent: 0px;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    background: rgba(207, 31, 37, 1);
+    text-shadow: none;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    position: absolute;
+    top: 0px;
+    left: 0;
+    width: calc(100% - 100px);
+    color: #fff;
+    z-index: 9999;
+}
+#kc-otp-login-form #kc-form-buttons>div input{
+   width: 40px;
+}
+
+#kc-otp-login-form #kc-form-buttons>div input[name="resend"]{
+    background: url('data:image/svg+xml,<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M7 9H1C0.734784 9 0.48043 8.89464 0.292893 8.70711C0.105357 8.51957 0 8.26522 0 8V2C0 1.73478 0.105357 1.48043 0.292893 1.29289C0.48043 1.10536 0.734784 1 1 1C1.26522 1 1.51957 1.10536 1.70711 1.29289C1.89464 1.48043 2 1.73478 2 2V4.98125C3.93375 2.8 7.32625 0 12 0C17.3525 0 20.5725 3.15875 20.7075 3.2925C20.8955 3.47981 21.0013 3.73412 21.0018 3.99948C21.0023 4.26485 20.8973 4.51953 20.71 4.7075C20.5227 4.89547 20.2684 5.00134 20.003 5.00181C19.7377 5.00227 19.483 4.89731 19.295 4.71C19.2612 4.67625 16.49 2 12 2C7.625 2 4.47125 5.08125 2.93 7H7C7.26522 7 7.51957 7.10536 7.70711 7.29289C7.89464 7.48043 8 7.73478 8 8C8 8.26522 7.89464 8.51957 7.70711 8.70711C7.51957 8.89464 7.26522 9 7 9ZM23 15H17C16.7348 15 16.4804 15.1054 16.2929 15.2929C16.1054 15.4804 16 15.7348 16 16C16 16.2652 16.1054 16.5196 16.2929 16.7071C16.4804 16.8946 16.7348 17 17 17H21.07C19.5287 18.9188 16.375 22 12 22C7.51 22 4.73875 19.3238 4.705 19.29C4.51703 19.1027 4.26235 18.9977 3.99698 18.9982C3.73162 18.9987 3.47731 19.1045 3.29 19.2925C3.10269 19.4805 2.99773 19.7352 2.99819 20.0005C2.99866 20.2659 3.10453 20.5202 3.2925 20.7075C3.4275 20.8413 6.6475 24 12 24C16.6737 24 20.0662 21.2 22 19.0187V22C22 22.2652 22.1054 22.5196 22.2929 22.7071C22.4804 22.8946 22.7348 23 23 23C23.2652 23 23.5196 22.8946 23.7071 22.7071C23.8946 22.5196 24 22.2652 24 22V16C24 15.7348 23.8946 15.4804 23.7071 15.2929C23.5196 15.1054 23.2652 15 23 15Z" fill="%236F6F6F"/></svg>');
+    background-repeat: no-repeat;
+    background-size: 18px;
+    background-position: center;
+ }
+ #kc-otp-login-form #kc-form-buttons>div input[name="cancel"]{
+     background: url('data:image/svg+xml,<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M19.7074 18.2925C19.8004 18.3854 19.8741 18.4957 19.9243 18.6171C19.9746 18.7385 20.0005 18.8686 20.0005 19C20.0005 19.1314 19.9746 19.2615 19.9243 19.3829C19.8741 19.5043 19.8004 19.6146 19.7074 19.7075C19.6145 19.8004 19.5042 19.8741 19.3828 19.9244C19.2614 19.9747 19.1313 20.0006 18.9999 20.0006C18.8686 20.0006 18.7384 19.9747 18.6171 19.9244C18.4957 19.8741 18.3854 19.8004 18.2924 19.7075L9.99995 11.4138L1.70745 19.7075C1.5198 19.8951 1.26531 20.0006 0.999946 20.0006C0.734582 20.0006 0.480086 19.8951 0.292446 19.7075C0.104805 19.5199 -0.000610346 19.2654 -0.000610352 19C-0.000610357 18.7346 0.104805 18.4801 0.292446 18.2925L8.5862 10L0.292446 1.70751C0.104805 1.51987 -0.000610352 1.26537 -0.000610352 1.00001C-0.000610352 0.734643 0.104805 0.480147 0.292446 0.292507C0.480086 0.104866 0.734582 -0.000549316 0.999946 -0.000549316C1.26531 -0.000549316 1.5198 0.104866 1.70745 0.292507L9.99995 8.58626L18.2924 0.292507C18.4801 0.104866 18.7346 -0.000549322 18.9999 -0.000549316C19.2653 -0.000549311 19.5198 0.104866 19.7074 0.292507C19.8951 0.480147 20.0005 0.734643 20.0005 1.00001C20.0005 1.26537 19.8951 1.51987 19.7074 1.70751L11.4137 10L19.7074 18.2925Z" fill="rgba(207, 31, 37, 1)"/></svg>');
+     background-repeat: no-repeat;
+     background-size: 18px;
+     background-position: center;
+  }
+#kc-otp-login-form #kc-form-buttons>div input:first-child{
+    width: calc(100% - 100px);
+    background: rgba(207, 31, 37, 1);
+    position: relative;
+}
+.login-pf-header #kc-username{
+    display: none;
+}
