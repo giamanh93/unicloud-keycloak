@@ -223,7 +223,7 @@ div#kc-header{
 }
 
 #kc-page-title{
-    text-indent: -99999999999px;
+    /* text-indent: -99999999999px; */
     width: 270px;
     height: 64px;
     margin: auto;
@@ -245,7 +245,7 @@ div#kc-header{
     border-radius: 16px;
 }
 #kc-form-login:before{
-    content: 'Đăng nhập';
+    /* content: 'Đăng nhập'; */
     display: block !important;
     position: absolute;
     left: 50px;
@@ -256,7 +256,7 @@ div#kc-header{
     top: 50px;
 }
 #kc-form-login:after{
-    content: 'Vui lòng dùng tài khoản bạn đã được cấp để đăng nhập!';
+    /* content: 'Vui lòng dùng tài khoản bạn đã được cấp để đăng nhập!'; */
     display: block !important;
     position: absolute;
     top: 100px;
@@ -281,19 +281,19 @@ div#kc-form form label{
     font-size: 17px;
     text-shadow: none;
     font-weight: bold;
-    text-indent: -9999999px;
+    /* text-indent: -9999999px; */
     line-height: 1;
     margin-bottom: 10px;
 }
 div#kc-form form label[for="username"]::after{
-    content: 'Tên đăng nhập';
+    /* content: 'Tên đăng nhập'; */
     display: block;
-    text-indent: 0px;
+    /* text-indent: 0px; */
 }
 div#kc-form form label[for="password"]::after{
-    content: 'Mật khẩu';
+    /* content: 'Mật khẩu'; */
     display: block;
-    text-indent: 0px;
+    /* text-indent: 0px; */
 }
 .form-group input{
     height: 40px;
@@ -354,7 +354,7 @@ span.pf-m-error{
     border: none;
     box-shadow: none;
     margin-top: 0;
-    text-indent: -99999999px;
+    /* text-indent: -99999999px; */
     background: none;
     position: relative;
     z-index: 999;
@@ -369,9 +369,9 @@ span.pf-m-error{
     margin-bottom: 0px;
 }
 #kc-form-buttons:after{
-    content: 'Đăng nhập';
+    /* content: 'Đăng nhập'; */
     display: block;
-    text-indent: 0px;
+    /* text-indent: 0px; */
     position: absolute;
     top: 0px;
     left: 0;
@@ -396,9 +396,9 @@ span.pf-m-error{
     margin-bottom: 25px;
   }
 #kc-form-login .login-pf-settings div a::after{
-    content: 'Quên mật khẩu?';
+    /* content: 'Quên mật khẩu?'; */
     display: block;
-    text-indent: 0px;
+    /* text-indent: 0px; */
     color: rgba(33, 38, 51, 1);
     bottom: 0;
     position: absolute;
@@ -422,7 +422,7 @@ span.pf-m-error{
     font-size: 17px;
     text-shadow: none;
     font-weight: bold;
-    text-indent: -9999999px;
+    /* text-indent: -9999999px; */
     line-height: 1;
     margin-bottom: 10px;
 }
@@ -441,9 +441,9 @@ span.pf-m-error{
   }
 
 #kc-reset-password-form label[for="username"]::after {
-    content: 'Tên đăng nhập';
+    /* content: 'Tên đăng nhập'; */
     display: block;
-    text-indent: 0px;
+    /* text-indent: 0px; */
 }
 #kc-reset-password-form .form-group .col-xs-12{
     padding-left: 0px;
@@ -467,28 +467,28 @@ span.pf-m-error{
 font-size: 17px;
 text-shadow: none;
 font-weight: bold;
-text-indent: -9999999px;
+/* text-indent: -9999999px; */
 line-height: 1;
 margin-bottom: 10px;
 }
 #kc-passwd-update-form label[for="password-new"]::after {
-content: 'Mật khẩu mới';
+/* content: 'Mật khẩu mới'; */
 display: block;
-text-indent: 0px;
+/* text-indent: 0px; */
 }
 #kc-passwd-update-form label[for="password-confirm"]{
     color: #525B73 !important;
 font-size: 17px;
 text-shadow: none;
 font-weight: bold;
-text-indent: -9999999px;
+/* text-indent: -9999999px; */
 line-height: 1;
 margin-bottom: 10px;
 }
 #kc-passwd-update-form label[for="password-confirm"]::after {
-content: 'Nhập lại password';
+/* content: 'Nhập lại password'; */
 display: block;
-text-indent: 0px;
+/* text-indent: 0px; */
 }
 #kc-passwd-update-form .form-group .col-xs-12 {
 padding-left: 0px;
@@ -507,13 +507,13 @@ gap: 5px;
 position: relative;
 }
 #kc-passwd-update-form #kc-form-options .checkbox label {
-    text-indent: -999999px;
+    /* text-indent: -999999px; */
 
 }
 #kc-passwd-update-form #kc-form-options .checkbox label::after {
-    content: 'Đăng xuất khỏi các thiết bị khác';
+    /* content: 'Đăng xuất khỏi các thiết bị khác'; */
     display: block;
-    text-indent: 0px;
+    /* text-indent: 0px; */
     top: 0;
     line-height: 40px;
 }
@@ -534,19 +534,19 @@ line-height: 16px;
     height: 100%;
     top: 0px;
     border: none;
-    text-indent: -9999999px;
+    /* text-indent: -9999999px; */
     width: 70px;
 }
 #kc-passwd-update-form #kc-form-buttons button[name="cancel-aia"]::after {
-    content: 'Hủy';
+    /* content: 'Hủy'; */
     display: block;
-    text-indent: 0px;
+    /* text-indent: 0px; */
     position: absolute;
     top: 0;
     line-height: 40px;
 }
 #kc-passwd-update-form #kc-form-buttons:after{
-    content: 'Cập nhật';
+    /* content: 'Cập nhật'; */
     width: calc(100% - 80px);
 }
 
@@ -567,14 +567,14 @@ line-height: 16px;
     font-size: 17px;
     text-shadow: none;
     font-weight: bold;
-    text-indent: -9999999px;
+    /* text-indent: -9999999px; */
     line-height: 1;
     margin-bottom: 10px;
 }
 #kc-otp-login-form label[for="emailCode"]::after {
-    content: 'Vui lòng nhập mã 6 chữ số đã được gửi tới email của bạn.';
+    /* content: 'Vui lòng nhập mã 6 chữ số đã được gửi tới email của bạn.'; */
     display: block;
-    text-indent: 0px;
+    /* text-indent: 0px; */
 }
 #kc-otp-login-form .form-group{
     margin-left: 0px;
@@ -595,9 +595,9 @@ line-height: 16px;
     position: relative;
 }
 #kc-otp-login-form #kc-form-buttons>div:after{
-    content: 'Đăng nhập';
+    /* content: 'Đăng nhập'; */
     display: block;
-    text-indent: 0px;
+    /* text-indent: 0px; */
     text-align: center;
     height: 40px;
     line-height: 40px;
