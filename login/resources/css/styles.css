@@ -223,7 +223,7 @@ div#kc-header{
 }
 
 #kc-page-title{
-    /* text-indent: -99999999999px; */
+    text-indent: -99999999999px;
     width: 270px;
     height: 64px;
     margin: auto;
@@ -355,15 +355,12 @@ span.pf-m-error{
     box-shadow: none;
     margin-top: 0;
     /* text-indent: -99999999px; */
-    background: none;
+    background: rgba(207, 31, 37, 1);
     position: relative;
     z-index: 999;
 }
 #kc-form-buttons{
     position: relative;
-}
-#kc-form-buttons input:hover{
-    background: none;
 }
 .login-pf-settings{
     margin-bottom: 0px;
@@ -390,7 +387,7 @@ span.pf-m-error{
     line-height: 1;
     text-shadow: none;
     font-size: 15px;
-    color: #fff;
+    color: #575757;
     position: relative;
     margin-top: 12px;
     margin-bottom: 25px;
@@ -649,4 +646,11 @@ line-height: 16px;
     box-shadow: 0px 1.643070936203003px 6px 0px rgba(112, 144, 176, 0.15);
     margin-top: 30px;
     border-radius: 16px;
+}
+.login-pf-header{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 9;
+    top: 90px;
 }
